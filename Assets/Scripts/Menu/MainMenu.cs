@@ -18,11 +18,13 @@ public class MainMenu : MonoBehaviour
         options.SetActive(true);
     }
 
+    // Close Options
     public void CloseOptions()
     {
         options.SetActive(false);
     }
 
+    // Quit to desktop
     public void QuitGame()
     {
         Application.Quit();
